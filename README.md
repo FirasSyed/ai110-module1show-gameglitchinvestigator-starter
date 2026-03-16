@@ -26,12 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+  - [ ] The purpose of the game is to create a guessing program that has 3 difficulties with varying ranges/number of attempts. A secret value is chosen randomly within the range and you need to guess the value within the number of attempts.
 - [ ] Detail which bugs you found.
+  - [ ] I found bugs in creating a new game after the old one is finished, the number of attempts and the range of these attempts per difficulty, and adding responses to unintended inputs.
 - [ ] Explain what fixes you applied.
+  - [ ] I added fixes to allow for the "New Game" button to work properly, the attempts/range for the difficulties to be there properly, and for the unintended inputs such as putting in a decimal to be treated appropriately.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- ![alt text](image.png)
 
 ## 🚀 Stretch Features
 
